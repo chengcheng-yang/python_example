@@ -1,7 +1,8 @@
-
+# %%
 import matplotlib.pyplot as plt
 import src.data_generator as data_generator
 
+# %%
 plot_dir = "../docs/source/plots/"  # change here if path is not right
 
 
@@ -19,3 +20,5 @@ plt.suptitle("green line plot")
 plt.savefig(plot_dir + "green_line.png")
 print("green fig saved")
 
+
+# %%
